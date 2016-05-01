@@ -1,0 +1,8 @@
+# mount point	fstype		device			[device2]
+/sdcard2          vfat			/dev/block/platform/emmc/by-name/user
+/system		ext4		/dev/block/platform/emmc/by-name/sdss
+/cache		ext4		/dev/block/platform/emmc/by-name/sdch
+/data		ext4		/dev/block/platform/emmc/by-name/sdud
+/misc		emmc 		/dev/block/platform/emmc/by-name/misc
+/boot		emmc		/dev/block/platform/emmc/by-name/boot
+/recovery	emmc		/dev/block/platform/emmc/by-name/recovery
